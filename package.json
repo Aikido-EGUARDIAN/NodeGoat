@@ -61,5 +61,10 @@
     "zaproxy": "^0.2.0"
   },
   "repository": "https://github.com/OWASP/NodejsGoat",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "overrides": {
+    "minimist@<=1.2.6": "1.2.6",
+    "bson@<=1.1.4": "1.1.4",
+    "ini@<=1.3.6": "1.3.6"
+  }
 }
